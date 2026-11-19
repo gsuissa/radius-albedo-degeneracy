@@ -5,6 +5,7 @@
 #        3: Sigma of AgPhi lognormal distribution
 #====================================================================================================================================
 # Note: The prior is a lognormal fitted to the log of the solar system AgPhi values (excluding Mercury) at each specified phase angle.
+# Note: Taking e^(mean) provides the physical AgPhi value.
 #====================================================================================================================================
 Phase_angle 	     mean 	   sigma
         0.0 	 -1.00668 	 0.49450
